@@ -18,6 +18,8 @@ body {
   left: 70%
 }
 
-  .images 
+  .images {
   display: inline;
+  border-radius: 50%
+  }
    
