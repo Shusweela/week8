@@ -1,9 +1,23 @@
+/*setting background and font color*/
 
-//rock image//
-https://www.pinclipart.com/picdir/middle/281-2816692_rock-clipart-small-rock-png-download.png   
+body {
+    background-color: blue;
+  }
 
-/paper image//
-http://clipartsign.com/upload/2016/01/18/paper-clipart-notebook.png
 
-/scissors image//
-https://free.clipartof.com/450/1702-Free-Clipart-Of-A-Pair-Of-Scissors.jpg
+  h1, p {
+      color: lightblue;
+      text-align: center; 
+      font-size-adjust: ;
+}
+
+/* arranging buttons*/
+.buttons {
+  display: inline-block;
+  cursor: pointer;
+  left: 70%
+}
+
+  .images 
+  display: inline;
+   

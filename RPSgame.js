@@ -20,7 +20,7 @@ function paperButton() {
     if (computer == 3) {
         display = ("You lose! Try again!");
     } else if (computer == 2) {
-        display = ("Its a draw");
+        display = ("Its a draw!");
     }else {
         display = ("You are the winner!");
     }
