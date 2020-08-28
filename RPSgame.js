@@ -1,29 +1,43 @@
-//Sends player to computer function based on button selected//
-if (button == rockButton){select Rock;}
-else if button == select Paper; 
-else if {button == scissButton;}
-else {display "Are you still there", name
-}
-
-//function that randomly selects a number//
+var display;
+var computer;
 
 //Function if player selects Rocks//
-function Rock (Math.floor(Math.random() * 4) +1);{
-if Rock == 1 return ("Its a draw!");{
-    else if Rock == 2 return ("You lose!  Try again!");{
-        else Rock == 3, return (name," " "," "you won!");
-    }}
+function rockButton() {
+    computer = Math.floor((Math.random() * 3) + 1);
+    if (computer == 1) {
+        display = "Its a draw!";
+    } else if (computer == 2) {
+        display = "Sorry, you lost! Try again!";
+    } else {
+        display = name, "You are the winner!";
+}
+document.getElementById("demo").innerHTML = display;
+}
 
 //Function if player selects Paper//
-function (Paper) (Math.floor(Math.random() * 4) +1);{
-   if Paper == 2 return ("Its a draw!");{
-        else if Paper == 3 return ("You lose!  Try again!");{
-            else Paper == 1, return (name," " "," "you won!");
-        }}
+function paperButton() {
+    computer = Math.floor((Math.random() * 3) + 1);
+    if (computer == 3) {
+        display = ("You lose! Try again!");
+    } else if (computer == 2) {
+        display = ("Its a draw!");
+    }else {
+        display = ("You are the winner!");
+    }
+    document.getElementById("demo").innerHTML = display;
+}
+
+
 
 //Function for if player selects Scissors//
-function Scissors (Math.floor(Math.random() * 4) +1);{
-    Scissors == 3 return ("Its a draw!");{
-        else if Scissors == 1 return ("You lose!  Try again!");{
-            else Scissors == 2, return (name," " "," "you won!");
-        }}
+function scissButton() {
+    computer = Math.floor((Math.random() * 3) + 1);
+if (computer == 3) {
+    display  = "Its a draw!"; //this could be the id sections..isntead of a return
+} else if (computer == 1) {  
+    display = "You lose!  Try again!";
+} else {
+    display = "You are the winner!";
+}
+document.getElementById("demo").innerHTML = display;
+}

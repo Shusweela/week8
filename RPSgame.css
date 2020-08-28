@@ -1,0 +1,25 @@
+/*setting background and font color*/
+
+body {
+    background-color: blue;
+  }
+
+
+  h1, p {
+      color: lightblue;
+      text-align: center; 
+      font-size-adjust: ;
+}
+
+/* arranging buttons*/
+.buttons {
+  display: inline-block;
+  cursor: pointer;
+  left: 70%
+}
+
+  .images {
+  display: inline;
+  border-radius: 50%
+  }
+   
