@@ -9,7 +9,7 @@ function rockButton() {
     } else if (computer == 2) {
         display = "Sorry, you lost! Try again!";
     } else {
-        display = name,", you won!";
+        display = name, "You are the winner!";
 }
 document.getElementById("demo").innerHTML = display;
 }
@@ -22,7 +22,7 @@ function paperButton() {
     } else if (computer == 2) {
         display = ("Its a draw");
     }else {
-        display = (name,", you won!");
+        display = ("You are the winner!");
     }
     document.getElementById("demo").innerHTML = display;
 }
@@ -37,7 +37,7 @@ if (computer == 3) {
 } else if (computer == 1) {  
     display = "You lose!  Try again!";
 } else {
-    display = name,", you won!";
+    display = "You are the winner!";
 }
 document.getElementById("demo").innerHTML = display;
 }
