@@ -1,25 +1,23 @@
 /*setting background and font color*/
-
 body {
     background-color: blue;
+    text-align: center;
   }
 
 
   h1, p {
       color: lightblue;
-      text-align: center; 
-      font-size-adjust: ;
 }
 
 /* arranging buttons*/
 .buttons {
-  display: inline-block;
-  cursor: pointer;
-  left: 70%
+
 }
 
+/*design from images*/
   .images {
   display: inline;
-  border-radius: 50%
+  opacity: .10;
+  ;
   }
    

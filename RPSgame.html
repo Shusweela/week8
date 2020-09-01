@@ -10,9 +10,20 @@
 
 <body>     
         </html>
+        <!--Title of Game-->
  <h1>Rock, Paper, Scissors Game</h1> 
  <br>
+
+ <!--creates place for player to enter their name-->
+ <form action=>
+ <p>Please enter your name below:</p>
+ <input type="text"/>
+ <input type="submit" value="Submit"/>
+ </form>
  <br>
+ <br>
+ <br>
+<!--creates buttons for player to select their weapon Rock, Paper, or Scissors-->
  <div class="buttons">
  <br><!--creates buttons for the game of Rock Paper and Scissors-->
  <button onclick="rockButton()">Rock</button> <!-- can do an eventListener instead of this onclick method -->
@@ -22,18 +33,15 @@
  </div>
  <br>
  <br>
+ <!--images placed to go with buttons for hover---need to find how to do this-->
  <div class="images">
      <img src="https://www.pinclipart.com/picdir/middle/281-2816692_rock-clipart-small-rock-png-download.png" alt= "Rock" style="width:7%">
-      <br>
-      <br>
+
       <img src="https://i.pinimg.com/564x/70/77/72/707772593f58bbbdab89a2748bf80727.jpg" alt= "Paper" style="width:7%">
-      <br>
-      <br>
+      
      <img src="https://free.clipartof.com/450/1702-Free-Clipart-Of-A-Pair-Of-Scissors.jpg" alt= "Scissors" style="width:7%">
 </div>
-    <br>
-    <br>
+<!--location on screen that shows who the winner is--communication from js-->
  <h3><p id="demo"></p></h3>
-     >
 </body>
 </html>
