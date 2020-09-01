@@ -7,7 +7,7 @@ function rockButton() {
     if (computer == 1) {
         display = "Its a draw!";
     } else if (computer == 2) {
-        display = "Sorry, you lost! Try again!";
+        display = "Sorry, you lost, I won! Try again!";
     } else {
         display = name, "You are the winner!";
 }
